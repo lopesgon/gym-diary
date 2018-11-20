@@ -1,0 +1,17 @@
+// Import _variables.css to the component's sass file where you want to use it.
+@import "src/themes/_variables.scss";
+
+mat-toolbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    a.active {
+        background-color: none;
+    }
+
+    span.spacer {
+        flex: 1 1 auto;
+    }
+}
